@@ -6,17 +6,13 @@ p {
 }
 body {
     background: rgb(237,172,114);
-    /* background: linear-gradient(180deg, rgba(237,172,114,1) 33%, rgba(0,0,0,1) 41%); */
     font-family: 'Carter One', cursive;
-    /* background-image: url("../imgs/wnbaball.png"); */
     background-size: cover;
     background-repeat: no-repeat;
-    /* width: fit-content; */
 }
 header {
     display: flex;
     flex-direction: row;
-    /* position: sticky; */
     justify-content: space-between;
     top: 5px;
 }
@@ -25,7 +21,6 @@ header {
     height: 300px;
 }
 section {
-    /* border: 3px white solid; */
     border-radius: 15px;
     padding: 15px;
     width: fit-content;
@@ -51,13 +46,11 @@ iframe {
 .confused{
     border-radius: 15px;
     margin-top: 45px;
-    margin-left: 40%;
-    margin-right: 60%;
+    margin-left: 45%;
 }
 h1 {
     text-shadow: 1px 1px 5px rgb(237,172,114);
 }
-
 .navbar {
     display: flex;
     justify-content: end;
@@ -65,45 +58,48 @@ h1 {
     top: 5px;
     word-spacing: 30px;
 }
-
 nav li {
     text-decoration: none;
     display: inline-block;
     background: rgb(237,172,114);
-    /* border: 1px solid rgb(237,172,114); */
     border-radius: 20px;
     padding: 5px;
 }
-
 a {
     color: #ff4c04;
     text-decoration: none;
     font-size: 17px;
-    /* display: inline-block;
-    background: rgb(237,172,114);
-    border: 1px solid rgb(237,172,114);
-    border-radius: 20px;
-    padding:5px; */
 }
-
 a:visited {
     color: black;
 }
-
 li a:hover {
     background-color: white;
     color: rgb(237,172,114);
     border-radius: 20px;
     padding: 5px;
 }
-
+.thewball{
+    width: 650px;
+    height: 400px;
+    border-radius: 15px;
+    margin-top: 45px;
+    margin-left: 30%;
+}
+.teamtime{
+    width: 1200px;
+    height: 450px;
+    border-radius: 15px;
+    margin-left: 15%;
+}
 .form{
     border: 3px solid black;
+    border-radius:  15px;
     padding: 10px;
     width: fit-content;
-    margin-left: 150px;
-    /* margin-right: 150px; */
+    margin-left: 20%;
     margin-top: 50px;
+    font-size: 20px;
 }
 
 input[type=text], textarea {
@@ -113,7 +109,6 @@ input[type=text], textarea {
     margin-top: 5px;
     margin-bottom: 10px;
 }
-
 input[type=submit] {
     background-color: rgb(237,172,114);
     color: black;
@@ -121,7 +116,6 @@ input[type=submit] {
     cursor: pointer;
     border-radius: 15px;
 }
-
 input[type=submit]:hover {
     background-color: rgb(0, 0, 0);
     color: rgb(237,172,114);
@@ -132,15 +126,26 @@ footer{
     justify-content: space-between;
     margin-top: 50px;
 }
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-right: 120px;
+    gap: 15px;
+    width:  10px;
+    height: 10px;
+}
 .footerlogo{
-    width:  95px;
+    width:  85px;
     height: 50px;
     /* align-self: flex-end; */
 }
-/* .footer-icons{
-    flex-direction: row;
-    justify-content: end;
-} */
+.ball-icon, .ytube-icon{
+    margin-top: 5px;
+}
+footer a:hover {
+    color: #ff4c04;
+}
 .fa-brands{
     font-size: 30px;
     color: black;
